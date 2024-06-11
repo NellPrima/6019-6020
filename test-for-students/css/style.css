@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+#style-1-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#block-1 {
+    color: whitesmoke;
+    background-color: #472F05;
+    text-align: center;
+}
+
+#block-2 {
+    color: whitesmoke;
+    background-color: #871C0E;
+    text-align: center;
+}
+
+#block-3 {
+    color: whitesmoke;
+    background-color: #BB4E0B;
+    text-align: center;
+}
+
+#block-4 {
+    color: whitesmoke;
+    background-color: #EC6816;
+    text-align: center;
+}
+
+#block-5 {
+    color: whitesmoke;
+    background-color: #F08315;
+    text-align: center;
+}
+
+#block-6 {
+    color: black;
+    background-color: #FFAF4B;
+    text-align: center;
+}
