@@ -1,0 +1,81 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license {
+    width: 700px;
+    border: 20px solid red;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+    border: 3px solid green;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+    padding-right: 10px;
+    color: #111167;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#small-pic-container img,
+data-fields {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    width: 150px;
+}
+
+#data-left, 
+#data-right {
+    display: inline-block;
+}
+
+#signiture {
+    text-align: center;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%
+}
+
+/* Left side of licence with florida h1 */
+
+h1 {
+    color: #111167;
+}
+
+#left-side h4 {
+    background-color: #111167;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-weight: 600;
+    
+}
+
+#address {
+    font-weight: 500;
+}
+

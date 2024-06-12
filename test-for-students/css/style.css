@@ -1,45 +1,71 @@
-body {
-    background-color: black;
+#palette-2-heading {
+    background-color: #DB9E51;
+    padding: 24px;
 }
 
-#style-1-heading {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    text-align: center;
+#palette-3-heading {
+    background-color: #DED1B4;
+    padding: 24px;
 }
 
-#block-1 {
-    color: whitesmoke;
-    background-color: #472F05;
-    text-align: center;
+#palette-4-heading {
+    background-color: #DB8048;
+    padding: 24px;
 }
 
-#block-2 {
-    color: whitesmoke;
-    background-color: #871C0E;
-    text-align: center;
+#palette-2-heading,
+#palette-3-heading,
+#palette-4-heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#block-3 {
-    color: whitesmoke;
-    background-color: #BB4E0B;
-    text-align: center;
+
+
+
+#palette-7-heading {
+    background-color: #FFE1A8;
+    padding: 24%;
 }
 
-#block-4 {
-    color: whitesmoke;
-    background-color: #EC6816;
-    text-align: center;
+#palette-6-heading {
+    background-color: #c9cba3;
+    padding: 24%;
 }
 
-#block-5 {
-    color: whitesmoke;
-    background-color: #F08315;
-    text-align: center;
+#palette-8-heading {
+    background-color:#E26D5C;
+    padding: 24%;
 }
 
-#block-6 {
-    color: black;
-    background-color: #FFAF4B;
-    text-align: center;
+#palette-6-heading,
+#palette-7-heading,
+#palette-8-heading  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+#palette-9-heading {
+    background-color: #7D6F86;
+    padding: 24%;
+}
+
+#palette-10-heading {
+    background-color: #585191;
+    padding: 24%;
+}
+
+#palette-11-heading {
+    background-color: #4F359B;
+    padding: 24%;
+}
+
+#palette-9-heading,
+#palette-10-heading,
+#palette-11-heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
 }
