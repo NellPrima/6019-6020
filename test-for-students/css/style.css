@@ -1,71 +1,45 @@
-#palette-2-heading {
-    background-color: #DB9E51;
-    padding: 24px;
+.cat-text {
+    color: #000000; 
+    font-size: 20px;
+    text-align: center;
+    background-color: orange;
+    border: 2px solid green;
 }
 
-#palette-3-heading {
-    background-color: #DED1B4;
-    padding: 24px;
+.dog-text {
+    color: #000000; 
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    border: 8px solid blue;
 }
 
-#palette-4-heading {
-    background-color: #DB8048;
-    padding: 24px;
+/* Simpler way to write code using the DRY method */
+
+.text {
+    color: #000000; 
+    font-size: 20px;
+    text-align: center;
 }
 
-#palette-2-heading,
-#palette-3-heading,
-#palette-4-heading {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.cat-text {
+    background-color: orange;
+    border: 2px solid green;
 }
 
-
-
-
-#palette-7-heading {
-    background-color: #FFE1A8;
-    padding: 24%;
+.dog-text {
+    background-color: yellow;
+    border: 8px solid blue;
 }
 
-#palette-6-heading {
-    background-color: #c9cba3;
-    padding: 24%;
+/* Maintaining consistancy in your code */
+
+.cat_text {
+    background-color: orange;
+    border: 2px solid green;
 }
 
-#palette-8-heading {
-    background-color:#E26D5C;
-    padding: 24%;
-}
-
-#palette-6-heading,
-#palette-7-heading,
-#palette-8-heading  {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-
-
-
-#palette-9-heading {
-    background-color: #7D6F86;
-    padding: 24%;
-}
-
-#palette-10-heading {
-    background-color: #585191;
-    padding: 24%;
-}
-
-#palette-11-heading {
-    background-color: #4F359B;
-    padding: 24%;
-}
-
-#palette-9-heading,
-#palette-10-heading,
-#palette-11-heading{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
+.dog-text {
+    background-color: yellow;
+    border: 8px solid blue;
 }
