@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+
 /*
     NOTE TO STUDENTS: 
 
@@ -7,44 +9,81 @@
     Good luck, and have fun!
 */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 #license {
     width: 700px;
-    border: 20px solid red;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 24px;
-}
+    filter: drop-shadow(5px 1px 2px #3e3a3a71);
+    background: linear-gradient(to bottom right,#fdca72, #ee9051 );
+} 
+
+ #address {
+    font-family: Raleway,"times new roman";
+} 
 
 #left-side {
     display: inline-block;
     width: 65%;
-    border: 3px solid green;
 }
+
 
 #right-side img {
     width: 100%;
+   
+    
 }
+
+
 
 #id-and-expiration div {
     display: inline-block;
     padding-right: 10px;
-    color: #111167;
+    color: #000080;
     font-size: 15px;
     padding-bottom: 10px;
 }
 
-#small-pic-container img,
-data-fields {
+#small-pic-container,
+#data-fields {
     display: inline-block;
+    margin-top: 10px;
 }
 
 #small-pic-container img {
-    width: 150px;
+    width: 70px;
+    opacity: 50%;
 }
 
 #data-left, 
 #data-right {
     display: inline-block;
+    color: #000080;
+    
 }
+
+#data-left span {
+    color: red;
+}
+
+#data-left{
+    padding-left: 5px;
+}
+
+#data-right{
+    padding-left: 10px;
+}
+
+#data-right span {
+    color: red;
+}
+
 
 #signiture {
     text-align: center;
@@ -58,14 +97,15 @@ data-fields {
 /* Left side of licence with florida h1 */
 
 h1 {
-    color: #111167;
+    color: #000080;
+   font-size: 70px;
 }
 
 #left-side h4 {
-    background-color: #111167;
+    background-color: #000080;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
 }
 
@@ -75,7 +115,36 @@ h1 {
     
 }
 
-#address {
-    font-weight: 500;
+
+#signature {
+    color: purple;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Sofia, "cursive";
 }
 
+/* Right side */
+
+#donor,
+#real-id {
+    display: inline-block;
+}
+
+#donor-and-real-id {
+  margin-left: 35px;
+  padding-top: 10px;
+}
+
+#donor {
+    color: red;
+    margin-right: 10px;
+}
+
+.fa-star {
+    background-color: gold;
+    border-radius: 50%; 
+    padding: 4px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}

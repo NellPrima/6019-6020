@@ -50,6 +50,10 @@
 
 /* Avoid using  extra selectors */
 
+.text-color {
+    color: blue;
+}
+
 #menu-list ul li a {
     color: green;
     background-color: orange;
@@ -62,4 +66,9 @@
     color: green;
     background-color: orange;
     font-size: 20px;
+}
+
+
+.text-color {
+    color: red;
 }
