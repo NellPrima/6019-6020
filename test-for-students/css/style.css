@@ -43,3 +43,23 @@
     background-color: yellow;
     border: 8px solid blue;
 }
+
+
+
+
+
+/* Avoid using  extra selectors */
+
+#menu-list ul li a {
+    color: green;
+    background-color: orange;
+    font-size: 20px;
+}
+
+/* You can write the code this way to target the anchor tag */
+
+#menu-list a {
+    color: green;
+    background-color: orange;
+    font-size: 20px;
+}
