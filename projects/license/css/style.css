@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-#license {
+ #license {
     width: 700px;
     border: 2px solid black;
     border-radius: 10px;
@@ -28,7 +28,7 @@
     font-family: Raleway,"times new roman";
 } 
 
-#left-side {
+#left-side  {
     display: inline-block;
     width: 65%;
 }
@@ -36,18 +36,14 @@
 
 #right-side img {
     width: 100%;
-   
-    
 }
-
-
 
 #id-and-expiration div {
     display: inline-block;
     padding-right: 10px;
     color: #000080;
     font-size: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
 
 #small-pic-container,
@@ -65,16 +61,15 @@
 #data-right {
     display: inline-block;
     color: #000080;
-    
 }
 
 #data-left span {
     color: red;
 }
 
-#data-left{
+#data-left {
     padding-left: 5px;
-}
+} 
 
 #data-right{
     padding-left: 10px;
@@ -94,11 +89,12 @@
     width: 34%
 }
 
-/* Left side of licence with florida h1 */
+
 
 h1 {
-    color: #000080;
+   color: #000080;
    font-size: 70px;
+   
 }
 
 #left-side h4 {
@@ -112,7 +108,6 @@ h1 {
 #id-and-expiration span {
     color: red;
     font-weight: 600;
-    
 }
 
 
@@ -123,7 +118,7 @@ h1 {
     font-family: Sofia, "cursive";
 }
 
-/* Right side */
+
 
 #donor,
 #real-id {
@@ -147,4 +142,4 @@ h1 {
     color: white;
     display: inline-block;
     font-size: 20px;
-}
+}   
