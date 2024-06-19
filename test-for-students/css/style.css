@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 24px;
+}
+
+.grey-container {
+    background-color: grey;
+}
+
+.dark-container {
+    background-color: black;
+    color:white;
+}
+
+.lightgrey-container {
+    background-color: lightgrey;
+}
+
+.single-column img{
+    width: 500px;
+    border-radius: 10%;
+}
+
+#box-2 li {
+    padding: 10px;
+}
