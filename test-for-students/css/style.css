@@ -1,42 +1,88 @@
-* {
-    box-sizing: border-box;
-}
-
-h1 {
+body {
+    background-color: #1E0C1B;
     text-align: center;
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
+.body {
+    width: 380px; 
+    border: 7px solid #6F017B;
 }
 
-.single-column {
-    width: 50%;
-    min-width: 500px;
-    max-width: 1000px;
-    margin: 0px auto;
-    padding: 24px;
+#heading0 {
+    background-color: #FA005A;
+    padding: 20px;
 }
 
-.grey-container {
-    background-color: grey;
+#heading1 {
+    color: #FFC500;
 }
 
-.dark-container {
-    background-color: black;
-    color:white;
+#product1 {
+    background-color: #081207;
+    color: #334B23;
+    padding: 20px;
 }
 
-.lightgrey-container {
-    background-color: lightgrey;
+#cake1 {
+    border: 3px solid #FFFFFF;
 }
 
-.single-column img{
-    width: 500px;
-    border-radius: 10%;
+#product2 {
+    background-color: #051A70;
+    color: #FFFFFF;
+    padding: 20px;
 }
 
-#box-2 li {
-    padding: 10px;
+#cookies1 {
+    width: 650px;
+    border: 3px solid #FFFFFF;
+}
+
+#product3 {
+    background-color: #132300;
+    color: #529407;
+    padding: 20px;
+}
+
+#rice-ball {
+    width: 650px;
+    border: 3px solid #FFD700;
+}
+
+#pumpkin-soup {
+    width: 650px;
+    border: 3px solid #FFD700;
+}
+
+#product4 {
+    background-color: #83C4F0;
+    color: #14014E;
+    padding: 20px;
+}
+
+#rep-bar {
+    width: 650px;
+    border: 3px solid #E6BC33;
+}
+
+#product5 {
+    background-color: #0E191A;
+    color: #EF3F1B;
+    padding: 20px;
+}
+
+#ruh-roh {
+    width: 650px;
+    border: 3px solid #2F7693;
+}
+
+#product6 {
+    background-color: #191213;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+#blue-milk {
+    width: 650px;
+    border: 3px solid #4C485D;
 }
