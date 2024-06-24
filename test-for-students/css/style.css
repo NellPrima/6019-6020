@@ -1,88 +1,62 @@
-body {
-    background-color: #1E0C1B;
-    text-align: center;
-}
-
-.body {
-    width: 380px; 
-    border: 7px solid #6F017B;
-}
-
-#heading0 {
-    background-color: #FA005A;
-    padding: 20px;
-}
-
-#heading1 {
-    color: #FFC500;
-}
-
-#product1 {
-    background-color: #081207;
-    color: #334B23;
-    padding: 20px;
-}
-
-#cake1 {
-    border: 3px solid #FFFFFF;
-}
-
-#product2 {
-    background-color: #051A70;
-    color: #FFFFFF;
-    padding: 20px;
-}
-
-#cookies1 {
-    width: 650px;
-    border: 3px solid #FFFFFF;
-}
-
-#product3 {
-    background-color: #132300;
-    color: #529407;
-    padding: 20px;
-}
-
-#rice-ball {
-    width: 650px;
-    border: 3px solid #FFD700;
-}
-
-#pumpkin-soup {
-    width: 650px;
-    border: 3px solid #FFD700;
-}
-
-#product4 {
-    background-color: #83C4F0;
-    color: #14014E;
-    padding: 20px;
-}
-
-#rep-bar {
-    width: 650px;
-    border: 3px solid #E6BC33;
-}
-
-#product5 {
-    background-color: #0E191A;
-    color: #EF3F1B;
-    padding: 20px;
-}
-
-#ruh-roh {
-    width: 650px;
-    border: 3px solid #2F7693;
-}
-
-#product6 {
-    background-color: #191213;
-    color: #FFFFFF;
-    padding: 20px;
-}
-
-#blue-milk {
-    width: 650px;
-    border: 3px solid #4C485D;
-}
+* {
+    box-sizing: border-box;}
+    
+    body {
+    margin: 0px;font-family: sans-serif;}
+    
+    #grid-layout {
+    display: grid;grid-template-columns: 250px 1fr;grid-template-areas: "header header""sidebar main";}
+    
+    #header {
+    grid-area: header;padding: 0px 36px;}
+    
+    #sidebar {
+    grid-area: sidebar;padding: 0px 24px;}
+    
+    #main {
+    grid-area: main;display: flex;flex-wrap: wrap;}
+    
+    #header a {
+    text-decoration: none;}
+    
+    #header #me {
+    color: #111111;}
+    
+    #header #tube {
+    color: white;background-color: red;padding: 4px;border-radius: 12px;}
+    
+    #sidebar ul {
+    padding: 12px 0px;margin: 0px;list-style-type: none;border-bottom: 1px solid #AAAAAA}
+    
+    
+    #sidebar ul a {
+    text-decoration: none;color: #111111;display: block;padding: 12px;}
+    
+    #sidebar ul a:hover {
+    background-color: #EEEEEE;border-radius: 12px;}
+    
+    .metube-item {
+    flex: 250px;margin-right: 12px;margin-bottom: 24px;}
+    
+    .metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 /9;background: radial-gradient(at top left, crimson, orange);border-radius: 8px;}
+    
+    
+    .metube-item h4 {
+    margin: 8px;}
+    
+    
+    .metube-item h4 a {
+    text-decoration: none;color: #111111;display: block;}
+    
+    
+    .metube-item h4 a:hover {
+    text-decoration: underline;}
+    
+    
+    .metube-item .video-details {
+    margin: 8px;font-size: 14px;}
+    
+    
+    .metube-item .video-channel {
+    margin-bottom: 4px;}
