@@ -1,62 +1,51 @@
 * {
-    box-sizing: border-box;}
-    
-    body {
-    margin: 0px;font-family: sans-serif;}
-    
-    #grid-layout {
-    display: grid;grid-template-columns: 250px 1fr;grid-template-areas: "header header""sidebar main";}
-    
-    #header {
-    grid-area: header;padding: 0px 36px;}
-    
-    #sidebar {
-    grid-area: sidebar;padding: 0px 24px;}
-    
-    #main {
-    grid-area: main;display: flex;flex-wrap: wrap;}
-    
-    #header a {
-    text-decoration: none;}
-    
-    #header #me {
-    color: #111111;}
-    
-    #header #tube {
-    color: white;background-color: red;padding: 4px;border-radius: 12px;}
-    
-    #sidebar ul {
-    padding: 12px 0px;margin: 0px;list-style-type: none;border-bottom: 1px solid #AAAAAA}
-    
-    
-    #sidebar ul a {
-    text-decoration: none;color: #111111;display: block;padding: 12px;}
-    
-    #sidebar ul a:hover {
-    background-color: #EEEEEE;border-radius: 12px;}
-    
-    .metube-item {
-    flex: 250px;margin-right: 12px;margin-bottom: 24px;}
-    
-    .metube-item .thumbnail-placeholder {
-    aspect-ratio: 16 /9;background: radial-gradient(at top left, crimson, orange);border-radius: 8px;}
-    
-    
-    .metube-item h4 {
-    margin: 8px;}
-    
-    
-    .metube-item h4 a {
-    text-decoration: none;color: #111111;display: block;}
-    
-    
-    .metube-item h4 a:hover {
-    text-decoration: underline;}
-    
-    
-    .metube-item .video-details {
-    margin: 8px;font-size: 14px;}
-    
-    
-    .metube-item .video-channel {
-    margin-bottom: 4px;}
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: #E0E0E0;
+    color: #111111;
+}
+#image-1{
+    width: 100px;
+}
+#images-2{
+    width: 100px;
+}
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 400px 200px 200px 1fr;
+    grid-template-areas: ". column-area-1 column-area-2 column-area-3 .";
+    gap: 10px;
+}
+#column-1 {
+    background-color: rgb(192, 69, 69);
+    padding: 0px 12px;
+    grid-area: column-area-1;
+}
+#column-2 {
+    background-color: rgb(27, 40, 98);
+    padding: 0px 12px;
+    grid-area: column-area-2;
+}
+#column-3 {
+    background-color: rgb(48, 159, 107);
+    padding: 0px 12px;
+    grid-area: column-area-3;
+}
+#three-columns img {
+    margin-top: 24px;
+    width: 100%;
+}
+#three-columns h2,
+#three-columns h3 {
+    border-bottom: 2px solid #888888;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+#three-columns p {
+    margin-top: 12px;
+}
