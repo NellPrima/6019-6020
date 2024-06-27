@@ -1,26 +1,48 @@
-/*
-    NOTE TO STUDENTS: DON'T MODIFY THE CODE IN THIS FILE!
-
-    If you do, you risk messing up the Generic License template!
-    However, feel free to look at the CSS Properties used.
-
-    Some of them are relatively advanced, but you are encouraged
-    to do your own research to try to understand how they work.
-
-    If you get stuck, feel free to ask about them in office hours!
-*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Shadows+Into+Light&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-image: url("../images/kikibackground.jpeg");
-    background-size: cover;
-    background-position: center;
     margin: 0px;
-    height: 100vh;
+    font-family: sans-serif;
+}
+
+#section-2 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#section-2 {
+    background: url("../images/paw-prints.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#section-2 .example-card {
+    max-width: 358px;
+    margin: 16px;
+}
+
+.card-style-2 .animagram-header .logo {
+    font-size: 36px;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 66px;
+    text-align: center;
+}
+
+.card-style-2 .animagram-header .brand-name {
+    font-family: 'Acme';
+    font-weight: bold;
 }

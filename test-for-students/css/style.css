@@ -1,51 +1,65 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
 }
-body {
-    background-color: #E0E0E0;
-    color: #111111;
+
+.card-style-2 {
+    
+    border: 3px solid rgb(42, 159, 168);
+    border-radius: 35px;
+    max-width: 350px;
+    max-height: 534px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 70px;
 }
-#image-1{
-    width: 100px;
+
+.card-style-2 img {
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    
+   
 }
-#images-2{
-    width: 100px;
+
+div.profile-pic-container {
+    border: 3px solid red;
 }
-#three-columns {
-    display: grid;
-    grid-template-columns: 1fr 400px 200px 200px 1fr;
-    grid-template-areas: ". column-area-1 column-area-2 column-area-3 .";
-    gap: 10px;
+
+span.logo {
+    margin: 20px;
 }
-#column-1 {
-    background-color: rgb(192, 69, 69);
-    padding: 0px 12px;
-    grid-area: column-area-1;
+
+span.brand-name {
+    font-size: 28px;
+    padding-left: 78px;
 }
-#column-2 {
-    background-color: rgb(27, 40, 98);
-    padding: 0px 12px;
-    grid-area: column-area-2;
-}
-#column-3 {
-    background-color: rgb(48, 159, 107);
-    padding: 0px 12px;
-    grid-area: column-area-3;
-}
-#three-columns img {
-    margin-top: 24px;
-    width: 100%;
-}
-#three-columns h2,
-#three-columns h3 {
-    border-bottom: 2px solid #888888;
-    padding-bottom: 4px;
+
+h2 {
+    text-align: center;
     margin-bottom: 0px;
 }
-#three-columns p {
-    margin-top: 12px;
+
+p {
+    text-align: center;
+}
+
+.animagram-footer  {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: x-large;
 }
