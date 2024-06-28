@@ -7,59 +7,59 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
+    font-family: sans-serif;
 }
 
-.card-style-2 {
-    
-    border: 3px solid rgb(42, 159, 168);
-    border-radius: 35px;
-    max-width: 350px;
-    max-height: 534px;
+.card-style-3 {
+    max-width: 358px;
+    max-height:580px;
+    margin:20px;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: white;
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    gap: 70px;
+    flex-direction:column;
+    justify-content: center;
+    background-color: rgb(248, 225, 14);
+    border: 15px solid  rgb(243, 201, 12)
 }
 
-.card-style-2 img {
-    width: 60%;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-    
+.pokemon-header {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.pokemon-header .health {
+   margin-left: 150px;
+   font-size: 20px;
    
 }
 
-div.profile-pic-container {
-    border: 3px solid red;
+.pokemon-header .name {
+    font-size: 25px
 }
 
-span.logo {
-    margin: 20px;
-}
-
-span.brand-name {
-    font-size: 28px;
-    padding-left: 78px;
-}
-
-h2 {
+.details {
+    font-size: 14px;
+    font-style:italic;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 0px;
+    background:  radial-gradient(
+        at center,
+        #f5de16,
+        #aa6915
+    );
 }
 
-p {
-    text-align: center;
-}
-
-.animagram-footer  {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    font-size: x-large;
+.card-style-3 img {
+    border: 5px solid  #c07616;
+    margin-bottom: 5px
 }
