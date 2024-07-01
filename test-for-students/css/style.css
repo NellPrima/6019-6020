@@ -8,58 +8,100 @@
     of the setup.css styling if you do so.
 */
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-
 .card-style-3 {
-    max-width: 358px;
-    max-height:580px;
-    margin:20px;
-    border-radius: 18px;
-    padding: 10px;
+    width: 350px;
+    border: 20px solid #ffd700;
+    border-radius: 8px;
     background-color: white;
     display: flex;
-    flex-direction:column;
-    justify-content: center;
-    background-color: rgb(248, 225, 14);
-    border: 15px solid  rgb(243, 201, 12)
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+    flex-wrap: wrap;
 }
 
 .pokemon-header {
     display: flex;
-    /* align-items: center; */
-    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
-.pokemon-header .health {
-   margin-left: 150px;
-   font-size: 20px;
-   
-}
-
-.pokemon-header .name {
-    font-size: 25px
-}
-
-.details {
-    font-size: 14px;
-    font-style:italic;
-    font-weight: bold;
-    text-align: center;
-    background:  radial-gradient(
-        at center,
-        #f5de16,
-        #aa6915
-    );
+.pokemon-header h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .card-style-3 img {
-    border: 5px solid  #c07616;
-    margin-bottom: 5px
+    width: 100%;
+    border: 5px solid #dca71e;
+}
+
+.details {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    background: linear-gradient(
+        to left,
+        #dca71e,
+        #ffd92e,
+        #dca71e
+    );
+}
+
+.attack {
+    border-bottom: 2px solid #111111;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.attack .description .bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.attack .power {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.data {
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #dca71e;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+/* Card background gradients */
+#pokemon-card-1,
+#pokemon-card-2 {
+    background: linear-gradient(
+        -40deg,
+        #89e889,
+        #258d25,
+        #89e889
+    );
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(
+        -40deg,
+        #ffa000,
+        #ff4700,
+        #ffa000
+    );
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(
+        -40deg,
+        #06fdfe,
+        #85ceeb,
+        #06fdfe
+    );
 }
