@@ -1,85 +1,88 @@
-* {
-    box-sizing: border-box
-}
+/*
+    Write your CSS for the assignment here.
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
-    background: radial-gradient(
-        rgb(226, 168, 226),
-        rgb(147, 248, 147)
-    );
-}
-
-#hero {
-    background-image: 
-    url("../images/jose-ignacio-pompe-wNg2_99C2ZY-unsplash.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    width: 350px;
+    border: 20px solid rgb(240, 227, 56);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 0px 15px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-header {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    font-size: 18px;
+}
+
+.pokemon-header .health {
+    padding-left: 60px;
+}
+
+.card-style-3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid goldenrod;
+}
+
+.card-style-3 .details {
+    background-color: goldenrod;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px 5px;
     text-align: center;
-    color: black;
-    padding-top: 20vh;
 }
 
-#hero h3 {
-    font-size: 6vw;
-    margin-bottom: 70vh;
+.card-style-3 .attack {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
 }
 
-#hero h4 {
-    font-size: 3vw;
-    margin: 0px;
+.card-style-3 .bold,
+.card-style-3 .power {
+    font-weight: bold;
+    font-size: 20px;
 }
 
-#hero a {
-    display: inline-block;
-    background-color: pink;
-    color: rgb(137, 78, 233);
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 2vw 10vh;
-    border-radius: 50px;
-    border: 5px solid white;
+.card-style-3 .data {
+    border: 2px solid goldenrod;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
     font-weight: bold;
 }
 
-#hero a:hover {
-    background-color: rgb(137, 78, 233) ;
-    color: pink;
+#pokemon-card-1 {
+    background-color: rgb(75, 236, 83);
 }
 
-.spacer {
-    height: 50vh;
-    background-size: cover;
-    background-attachment: fixed;
+/* .card-style-3 #pokemon-card-1 .details {
+    margin-top: 20px;
+} */
+
+#pokemon-card-2 {
+    background-color: rgb(47, 151, 20);
 }
 
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
+#pokemon-card-3 {
+    background-color: rgb(231, 53, 9);
 }
 
-.nature-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.nature-gallery img {
-    height: 250px;
-    flex: 1;
-    object-fit: cover;
-}
-
-#layout h3 {
-    background-color: pink;
-    padding: 15px;
-    margin:50px;
-    font-size: 30px;
-    border: 3px solid white;
+#pokemon-card-4 {
+    background-color: rgb(75, 191, 236);
 }
