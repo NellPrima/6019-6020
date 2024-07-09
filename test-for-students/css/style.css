@@ -2,130 +2,116 @@
     box-sizing: border-box;
 }
 
-body  {
+body {
     margin: 0px;
     font-family: sans-serif;
 }
 
-#navbar-1 {
-    background-color: rgb(2, 59, 2);
+#navbar {
+    background: linear-gradient(to bottom, #704700, #FF921F);
     display: flex;
     align-items: center;
 }
 
-#navbar-1 #logo-link {
-    margin-right: auto;
-    font-size: 26px;
-}
-
-#navbar-1 a {
+#navbar a {
     text-decoration: none;
     color: white;
     padding: 24px;
 }
 
-/*NavBar Client 2*/
+#navbar p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: #fed950;
+}
 
-#navbar-2  {
-    background: linear-gradient(to bottom, coral , pink);
+#navbar-2 {
+    background: linear-gradient(to bottom, #effaf6, #4ebeef);
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 #navbar-2 a {
     text-decoration: none;
-    color: black;
+    color: #1d6d86;
     padding: 24px;
 }
 
-#navbar-2 #logo-link-2 {
-    margin-right: auto;
-    font-size: 26px;
-}
-
-#navbar-2 #cta-button {
+#navbar-2 .cta-button {
     background-color: white;
-    color:pink ;
+    color: blue;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
-    font-weight: bold;
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
-}    
+}
 
+#navbar-2 p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin-right: auto;
+}
 
-/*NavBar Client 3*/
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
 
 #navbar-top {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, #F75F1C, #000000);
 }
 
 #navbar-top .content-column {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}  
+}
 
 #navbar-top a {
     text-decoration: none;
     color: white;
-    padding: 24px 0px;
- 
+    padding: 24px;
 }
 
-a {
-    margin: 
+#navbar-top .promo {
+    color: white;
 }
 
-#navbar-top {
-    padding: 10px; 
+#navbar-top .content2 p {
+    font-size: x-large;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-#navbar-middle #cta-button {
-    background-color: orange;
-    color: black;
-    border-radius: 30px;
+#navbar-top .cta-button {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
     font-weight: bold;
     min-width: 150px;
     text-align: center;
-    margin-left: 45px
-}
-
-#navbar-middle {
-    background: linear-gradient(to bottom, orange , yellow);
-    display: flex;
-    align-items: center;
-}
-
-#navbar-middle #logo-link-3 {
-    font-size: 26px;
-    font-weight: bold;
-}
-
-#navbar-middle a {
-    text-decoration: none;
-    color: black;
-    padding: 30px;
-}
-
-#navbar-middle #cta-button:hover {
-    background-color: white;
-    color: orange;
-    border: 2px solid black;
 }
 
 #navbar-bottom {
-    background-color: black;
-    padding: 18px;
+    background: linear-gradient(to bottom, #881ee4, #85e215);
+}
+
+#navbar-bottom 
+.content-column, 
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #navbar-bottom a {
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 12px 0px;
 }
