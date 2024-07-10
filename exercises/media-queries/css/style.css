@@ -213,6 +213,10 @@ a {
 /* TODO: Add your media query code here */
 
 @media screen and (max-width: 768px){
+
+    body {
+        background-color: rgb(91, 76, 131);
+    }
   
 
    #nav {

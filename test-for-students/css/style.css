@@ -1,117 +1,236 @@
+/* Google Font API imports - found at https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Secular+One&display=swap');
+
+/*****************************************************************************
+  Heading, Link, and Misc. Styles
+*****************************************************************************/
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+    margin: 0;
 }
 
-#navbar {
-    background: linear-gradient(to bottom, #704700, #FF921F);
-    display: flex;
-    align-items: center;
+h1,
+h2,
+h3,
+a {
+    font-family: 'Secular One', sans-serif;
 }
 
-#navbar a {
+h4,
+p {
+    font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+a {
     text-decoration: none;
-    color: white;
-    padding: 24px;
 }
 
-#navbar p {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
-    color: #fed950;
+#nav,
+#nav a,
+#footer a {
+    color: indigo;
 }
 
-#navbar-2 {
-    background: linear-gradient(to bottom, #effaf6, #4ebeef);
-    display: flex;
-    justify-content: space-between;
+#nav a:hover,
+#footer a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+#footer ul {
+    padding: 0;
+}
+
+/****************************************************************************
+  Nav/Footer styles
+****************************************************************************/
+#nav {
     align-items: center;
+    display: flex;
+    margin: 0 24px;
+    min-height: 50px;
 }
 
-#navbar-2 a {
-    text-decoration: none;
-    color: #1d6d86;
-    padding: 24px;
+#footer {
+    display: flex;
+    justify-content: center;
 }
 
-#navbar-2 .cta-button {
-    background-color: white;
-    color: blue;
-    border-radius: 36px;
-    padding: 16px 24px;
+#nav-links {
+    justify-content: center;
+}
+
+#nav-links,
+.social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-links li,
+.social-media li {
+    padding: 0 4px;
+}
+
+#nav .social-media {
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+.social-media i {
     font-size: 20px;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 24px;
 }
 
-#navbar-2 p {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
-    margin-right: auto;
+#nav,
+#nav a,
+#footer a {
+    color: indigo;
 }
 
-.content-column {
-    width: 800px;
+#nav a:hover,
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#nav ul,
+#nav h2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/****************************************************************************
+  Content Container styles
+****************************************************************************/
+
+#content-container {
+    max-width: 1000px;
     margin: 0px auto;
 }
 
-#navbar-top {
-    background: linear-gradient(to bottom, #F75F1C, #000000);
-}
+/****************************************************************************
+  Hero styles
+****************************************************************************/
 
-#navbar-top .content-column {
+#hero {
+    background-image: url("../images/abstractBackground.jpg");
+    background-size: cover;
+    color: white;
+    height: 70vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-#navbar-top a {
-    text-decoration: none;
-    color: white;
-    padding: 24px;
-}
-
-#navbar-top .promo {
-    color: white;
-}
-
-#navbar-top .content2 p {
-    font-size: x-large;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#navbar-top .cta-button {
-    background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
-    font-size: 20px;
-    font-weight: bold;
-    min-width: 150px;
     text-align: center;
+    padding: 10%;
 }
 
-#navbar-bottom {
-    background: linear-gradient(to bottom, #881ee4, #85e215);
+#hero h1 {
+    font-size: 120px;
 }
 
-#navbar-bottom 
-.content-column, 
-.content2 {
+#hero h3 {
+    font-size: 60px;
+}
+
+/****************************************************************************
+  Link styles
+****************************************************************************/
+
+#hero a,
+.card a {
+    background-color: white;
+    color: indigo;
+    border: 2px solid indigo;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+}
+
+#hero a:hover,
+.card a:hover {
+    transform: scale(1.05);
+}
+
+/****************************************************************************
+  Card styles
+****************************************************************************/
+.three-cards,
+.two-cards {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-#navbar-bottom a {
-    text-decoration: none;
-    color: white;
-    padding: 12px 0px;
+.card {
+    border: 2px solid indigo;
+    color: indigo;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+    flex: 1;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.three-cards {
+    margin-top: 48px;
+}
+
+.two-cards {
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.two-cards .card {
+    border: 0px;
+    box-shadow: none;
+}
+
+.two-cards .card img {
+    width: 100%;
+}
+
+/****************************************************************************
+  Media Query - Mobile Breakpoint
+****************************************************************************/
+
+/* TODO: Add your media query code here */
+
+@media screen and (max-width:768px) {
+    #nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #hero h3 {
+        font-size: 20px;
+    }
+
+    .three-cards,
+    .two-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
 }
