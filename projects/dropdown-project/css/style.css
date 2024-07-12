@@ -129,13 +129,12 @@ body {
 
 .bio {
     box-shadow: 10px 5px 2px orange;
-}
-
-.bio {
     color: white;
     text-shadow: 2px 2px black;
     font-size: 25px;
+    
 }
+
 
 .image {
     padding-top: 20px;
@@ -158,9 +157,11 @@ body {
 /* Nina page end */
 
 /* Nnedi page start */
-#mermaid-img {
+/* #mermaid-img {
     width: 800px;
+    display: block;
+    margin: 0 auto;
    
-}
+} */
 
 /* Nnedi page end */
