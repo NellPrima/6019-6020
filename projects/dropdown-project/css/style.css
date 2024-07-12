@@ -9,7 +9,7 @@
 body {
     margin: 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: red;
+    
 }
 
 /* Drop down menu start */
@@ -124,20 +124,26 @@ body {
     text-align: center;
     color: orange;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode',
-     'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;  
 }
 
+.bio {
+    box-shadow: 10px 5px 2px orange;
+}
 
-
-
+.bio {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+}
 
 .image {
     padding-top: 20px;
-    width: 400px;
-    
+    padding-bottom: 20px;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
 }
-
-
 
 .background-image {
     background-image: url("../images/zebraprint.jpg");
@@ -150,3 +156,11 @@ body {
 }
 
 /* Nina page end */
+
+/* Nnedi page start */
+#mermaid-img {
+    width: 800px;
+   
+}
+
+/* Nnedi page end */
