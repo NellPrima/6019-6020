@@ -9,23 +9,30 @@
 body {
     margin: 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 /* Drop down menu start */
 
 #navbar {
-    background: linear-gradient(to bottom, #a755b7a4, #337832);
+    background-image: url("../images/animal.webp"); 
     display: flex;
     align-items: center;
+   
 }
+
+
 
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: #e07431;
     padding: 24px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px #907f61;
+   
 }
+
 
 #navbar #logo {
     margin-right: auto;
@@ -33,14 +40,21 @@ body {
     font-size: 36px;
     padding-top: 13px;
     padding-bottom: 12px;
+    letter-spacing: 1.5px;
+   
+    /* background-color: rgba(244, 244, 244, 0.438);
+    border-radius: 3px;
+     */
+     position: relative;
+     z-index: 2;
 }
 
-#navbar a:hover {
-    background: linear-gradient(to top,  #a755b7a4, #337832 );
-}
+
 
 .dropdown-container {
     position: relative;
+    z-index: 1;
+    
 }
 
 .dropdown-menu {
@@ -53,13 +67,16 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: violet;
+    background-color: #f9f5f982; 
     width: 100%;
-    min-width: 50px;
+    min-width: 250px;
+    font-size: 20px;
+   
 }
 
 #navbar .dropdown-menu a:hover {
-    background-color: #337832;
+    background-color: #e07431;
+    color:#f9f5f9;
 }
 
 .dropdown-container:hover .dropdown-menu {
@@ -71,15 +88,25 @@ body {
 
 /* Hero code start */
 
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    
+}
+
 #hero {
-    background-image: url("../images/bunnies.jpg");
-    height: 100vh;
+    min-height: 93.1vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    position: relative;
+    overflow: hidden;
+} 
 
 #hero .hero-content {
     text-align: center;
@@ -115,37 +142,49 @@ body {
 /* Nina page start */
 
 .centered-layout {
-    width: 600px;
-    margin: 0 auto;
+    width: 50%;
+    margin: 48px auto;
 }
 
 .name,
 .bio {
     text-align: center;
-    color: orange;
+    color: white;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;  
+   
+}
+
+.name {
+    font-size: 35px;
+   
+    background-color: #333333;
+    border-radius: 2px;
+    
 }
 
 .bio {
-    box-shadow: 10px 5px 2px orange;
-    color: white;
+    border: 3px solid #292828;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-shadow: 2px 2px black;
     font-size: 25px;
+    background-color:#a09a8493;
     
 }
 
 
 .image {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    width: 400px;
     margin: 0 auto;
     display: block;
+    filter: drop-shadow(-4px 3px 3px #292828);
 }
 
 .background-image {
-    background-image: url("../images/zebraprint.jpg");
+   background-color: #d47a42;
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -157,11 +196,13 @@ body {
 /* Nina page end */
 
 /* Nnedi page start */
-/* #mermaid-img {
+  #mermaid-img {
     width: 800px;
     display: block;
     margin: 0 auto;
-   
-} */
+    position: relative;
+    left: 15px; 
+    
+} 
 
 /* Nnedi page end */
