@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,9 +15,11 @@ body {
 /* Drop down menu start */
 
 #navbar {
-    background-image: url("../images/animal.webp"); 
+    background-image: url("../images/final.webp"); 
     display: flex;
     align-items: center;
+    background-size: contain;
+    
    
 }
 
@@ -29,7 +32,9 @@ body {
     padding: 24px;
     font-size: 25px;
     letter-spacing: 1.5px;
-    text-shadow: 2px 2px #907f61;
+    text-shadow: 2px 1px #292828cf;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: 900;
    
 }
 
@@ -37,10 +42,11 @@ body {
 #navbar #logo {
     margin-right: auto;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 46px;
     padding-top: 13px;
     padding-bottom: 12px;
     letter-spacing: 1.5px;
+    font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
    
     /* background-color: rgba(244, 244, 244, 0.438);
     border-radius: 3px;
@@ -69,9 +75,14 @@ body {
 .dropdown-menu a {
     background-color: #f9f5f982; 
     width: 100%;
-    min-width: 250px;
+    min-width: 360px;
     font-size: 20px;
-   
+}
+
+#navbar .dropdown-menu a {
+    color: #292828;
+    text-shadow: 1px 1px #e1d6ce;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
 }
 
 #navbar .dropdown-menu a:hover {
@@ -118,11 +129,15 @@ body {
 #hero h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
+    font-family: Lobster Two, 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: #e07431;
 }
 
 #hero h4 {
     font-size: 3vw;
     margin: 0px;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: #dbd2c9;
 }
 
 #hero a {
@@ -167,10 +182,10 @@ body {
     border: 3px solid #292828;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding: 20px 20px 10px 10px;
     text-shadow: 2px 2px black;
     font-size: 25px;
     background-color:#a09a8493;
-    
 }
 
 
@@ -202,7 +217,19 @@ body {
     margin: 0 auto;
     position: relative;
     left: 15px; 
-    
 } 
 
 /* Nnedi page end */
+
+/* Binya page start */
+
+
+#frog-img {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 15px; 
+} 
+
+/*Binya page end*/
