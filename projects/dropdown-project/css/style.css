@@ -359,13 +359,49 @@ span {
 /* Donate code start */
 #newbg {
     background-color: #e07431;
+    height: 100%;
 }
 
 .single-column-layout {
     width: 50%;
     margin: 0 auto;
+    background-color: #f9f5f9;
+    height: 100%;
+   
 }
 
+#newbg img {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 13%;
+}
+
+#newbg h2 {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: Quicksand;
+    font-weight: 600;
+    color: #ede5e1;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.flexmoney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+   background-color: #e1d6ce;
+   width: 400px;
+   height: 500px;
+   margin-bottom: 80px;
+   border-radius: 2%;
+}
 
 /* Donate page end */
 
@@ -387,6 +423,7 @@ span {
     color:#e07431;
     font-family: Quicksand;
     padding-top: 5px;
+    margin-top: 10px;
 
 }
 
