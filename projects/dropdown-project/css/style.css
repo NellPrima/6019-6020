@@ -9,7 +9,6 @@
 
 body {
     margin: 0px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Drop down menu start */
@@ -83,11 +82,13 @@ body {
     color: #292828;
     text-shadow: 1px 1px #e1d6ce;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+   
 }
 
 #navbar .dropdown-menu a:hover {
     background-color: #e07431;
     color:#f9f5f9;
+    
 }
 
 .dropdown-container:hover .dropdown-menu {
@@ -216,7 +217,7 @@ body {
     display: block;
     margin: 0 auto;
     position: relative;
-    left: 15px; 
+    left: 0%; 
 } 
 
 /* Nnedi page end */
@@ -229,7 +230,95 @@ body {
     display: block;
     margin: 0 auto;
     position: relative;
-    left: 15px; 
+    left: 0%; 
 } 
 
 /*Binya page end*/
+
+/* Parallax code for home page start */
+
+.content-home {
+    background-color:#fff7f0 ;
+    height: auto;
+}
+
+#about-h2 {
+    text-align: center;
+    padding: 100px;
+    color: #b38b72;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-family: Quicksand;
+}
+
+.text-animals {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    color: #b38b72;
+    font-family: Quicksand;
+}
+
+.animal-paragraph {
+    font-size: 30px;
+}
+    
+
+.singlelayout {
+ 
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+   
+}
+
+.flex-animals {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 48px 0;
+}
+
+#ladydog {
+    width: 25vw;
+}
+
+.animal-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+span {
+    font-family: Lobster Two;
+    color: #e07431;
+   
+}
+
+
+
+
+/* Parallax code for home page start */
+
+/* Footer code start */
+
+#footer {
+    background-color: #e07431;
+    height: 30px;
+    text-align: center;
+    color:#e1d6ce;
+    font-family: Quicksand;
+    padding-top: 5px;
+}
+
+.footer3 {
+    background-color: #e1d6ce;
+    height: 30px;
+    text-align: center;
+    color:#e07431;
+    font-family: Quicksand;
+    padding-top: 5px;
+
+}
+
+/* Footer code end */
