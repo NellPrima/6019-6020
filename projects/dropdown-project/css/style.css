@@ -356,6 +356,19 @@ span {
 
 /* Volunteer code end */
 
+/* Donate code start */
+#newbg {
+    background-color: #e07431;
+}
+
+.single-column-layout {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* Donate page end */
+
 /* Footer code start */
 
 #footer {
