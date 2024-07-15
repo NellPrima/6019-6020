@@ -111,8 +111,7 @@ body {
 }
 
 #hero {
-    /* height: 100vh; */
-    /* min-height: 100vh; */
+    min-height: 100%; 
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -575,12 +574,9 @@ video {
 
 
 
- #hero {
-    height: 47vh; 
-   
-    border: 5px solid blue;
-    
-}  
+#hero {
+    min-height: 50vh;
+}
 
 #about-h2 {
     font-size: 40px;
@@ -597,6 +593,8 @@ video {
     line-height: 28px;
     text-align: center;
     font-weight: 400;
+    width: 400px;
+    
 }
     
 
@@ -604,11 +602,15 @@ video {
 .flex-animals {
   flex-direction:column;
   gap: 10px;
-  border: 2px solid red;
+ 
+}
+
+#owlboi {
+    flex-direction: column-reverse;
 }
 
 #ladydog {
-    width: 30vw;
+    width: 40vw;
     border-radius: 2%;
 }
 
@@ -616,6 +618,7 @@ video {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 } 
 
 
