@@ -10,6 +10,7 @@
 
 body {
     margin: 0px;
+    background-color:#FFF7F0;
 }
 
 /* Drop down menu start */
@@ -106,26 +107,29 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    z-index: -1;
+    z-index: -1 /*change back to -1*/;
     
 }
 
 #hero {
-    min-height: 100%; 
-    background-size: cover;
+    height: 100vh;
+    background-size: contain;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    overflow: hidden;
+  
 } 
 
 #hero .hero-content {
     text-align: center;
-    color: white;
-    /* padding-top: 20vh; */
-    text-shadow: 2px 2px black;
+  
+    padding-top: 20vh; 
+    /* text-shadow: 2px 2px black; */
+}
+
+.hero-content {
+    border: 3px solid green;
 }
 
 #hero h2 {
@@ -576,9 +580,7 @@ video {
 
 
 
-#hero {
-    min-height: 50vh;
-}
+
 
 #about-h2 {
     font-size: 40px;
