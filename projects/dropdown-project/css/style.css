@@ -8,10 +8,6 @@
     padding: 0;
 }
 
-body {
-   
-    background-color:#3b2410;
-}
 
 /* Drop down menu start */
 
@@ -48,10 +44,6 @@ body {
     padding-bottom: 12px;
     letter-spacing: 1.5px;
     font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
-   
-    /* background-color: rgba(244, 244, 244, 0.438);
-    border-radius: 3px;
-     */
      position: relative;
      z-index: 2;
 }
@@ -105,7 +97,6 @@ body {
 #hero {
     position: relative;
     overflow-y: hidden;
-    /* min-height: 100vh; */
     display: flex;
     align-content: center;
     justify-content: center;
@@ -139,8 +130,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: fixed;
-    top: 350px;
+    position: relative;
+    top: 60%;
    
  
 }
@@ -194,7 +185,7 @@ body {
     width: 50%;
     margin: 48px auto;
     position: relative;
-    z-index: -1;
+   
 }
 
 .name,
@@ -301,11 +292,9 @@ body {
     
 
 .singlelayout {
- 
     width: 50%;
     margin: 0 auto;
     padding-bottom: 20px;
-   
 }
 
 .flex-animals {
@@ -576,11 +565,7 @@ span {
 
 /* Mobile responsiveness start */
 
-@media screen and (max-width: 850px) and (min-width: 481px) {
-
-    body {
-        background-color: purple;
-    }
+@media screen and (max-width: 1000px) {
 
 
     #navbar #logo {
@@ -589,6 +574,7 @@ span {
         font-size: 35px;
         color: #f4f0ec;
         text-align: center;
+        border: 3px solid green;
     }
 
     
@@ -599,16 +585,6 @@ span {
 #navbar {
     flex-direction: column;
 }
-
-
-#hero h4{
-    background-color: #ca763a4c;
-}
-
-
-
-
-
 
 
 #about-h2 {
@@ -656,15 +632,28 @@ span {
 #hero {
     position: relative;
     overflow-y: hidden;
-    
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
 
+.hero-content {
+    gap: 10px;
+    position: relative;
+    top: 48%;
+}
+
+
+.wish {
+    font-size: 12px;
+    width: 250px;
+}
+
+
+
 #hero h2 {
-    font-size: 20px;
+    font-size: 8vwpx;
   
 }
 
@@ -713,5 +702,44 @@ span {
 
 
 }
+
+
+@media screen and (min-width: 1001px)  {
+
+    #navbar #logo {
+       
+        border: 3px solid rgb(49, 0, 128);
+    }
+
+    body {
+        background-color: red;
+    }
+
+    .hero-content {
+        gap: 10px;
+        position: relative;
+        top: 60%;
+    }
+    
+    .animal-paragraph {
+        font-size: 20px;
+        padding:px;
+    }
+
+    .singlelayout {
+        width: 900px;
+        
+    }
+
+ 
+
+
+ 
+
+
+
+}
+
+
 
 /* Mobile responsiveness end */
