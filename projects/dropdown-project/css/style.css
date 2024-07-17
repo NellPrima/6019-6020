@@ -9,8 +9,8 @@
 }
 
 body {
-    margin: 0px;
-    background-color:#FFF7F0;
+   
+    background-color:#3b2410;
 }
 
 /* Drop down menu start */
@@ -102,42 +102,77 @@ body {
 
 /* Hero code start */
 
+#hero {
+    position: relative;
+    overflow-y: hidden;
+    /* min-height: 100vh; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    aspect-ratio: 16/8;
+  
+}
+
 .video-bg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    z-index: -1 /*change back to -1*/;
-    
-}
-
-#hero {
-    height: 100vh;
-    background-size: contain;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+    width: 100%;
+    height: auto;
+    z-index: -1;
+   
+   
 } 
 
-#hero .hero-content {
-    text-align: center;
-  
-    padding-top: 20vh; 
-    /* text-shadow: 2px 2px black; */
-}
-
-.hero-content {
-    border: 3px solid green;
-}
 
 #hero h2 {
     font-size: 8vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5px;
     font-family: Lobster Two, 'Trebuchet MS', 'Lucida Sans Unicode';
     color: #e07431;
 }
+
+
+ .hero-content {
+    text-align: center;
+    text-shadow: 1px 2px black; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 350px;
+   
+ 
+}
+
+.wish {
+    text-shadow: 0 0 black; 
+    border-radius: 5px;
+    color:#d47a42;
+    font-size: 20px;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    width: 350px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: quicksand;
+    display: block;
+    margin: 0 auto;
+}
+
+.wish:hover {
+    background-color: #e07431;
+    color: white;
+    border:2px solid#e07431;
+    text-shadow: 1px 1px #242322;
+}
+
+
+ 
+
+
+
 
 #hero h4 {
     font-size: 3vw;
@@ -146,15 +181,8 @@ body {
     color: #dbd2c9;
 }
 
-#hero a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: white;
-    color: #333333;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 2vw 10vh;
-}
+
+   
 
 /* Hero code end */
 
@@ -165,6 +193,8 @@ body {
 .centered-layout {
     width: 50%;
     margin: 48px auto;
+    position: relative;
+    z-index: -1;
 }
 
 .name,
@@ -546,12 +576,19 @@ span {
 
 /* Mobile responsiveness start */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) and (min-width: 481px) {
+
+    body {
+        background-color: purple;
+    }
+
+
     #navbar #logo {
-        color: purple;
+        background-color: #e07431;
+        width: 100%;
         font-size: 35px;
-        display: inline-block;
-        margin: 0 auto;
+        color: #f4f0ec;
+        text-align: center;
     }
 
     
@@ -563,20 +600,12 @@ span {
     flex-direction: column;
 }
 
-.movehero {
-  position: relative;
-  top: 50px;
-  
-}
+
 #hero h4{
     background-color: #ca763a4c;
 }
 
-video {
-    border: 3px solid green;
-   
-    
-}
+
 
 
 
@@ -622,9 +651,65 @@ video {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
 } 
 
+#hero {
+    position: relative;
+    overflow-y: hidden;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#hero h2 {
+    font-size: 20px;
+  
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e07431;
+    padding: 24px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 1px #292828cf;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: 900;
+   
+}
+
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 46px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    letter-spacing: 1.5px;
+    font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    z-index: 2;
+}
+
+
+.dropdown-menu a {
+    background-color: #f9f5f9d7; 
+    min-width: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#navbar .dropdown-menu a {
+    font-size: 20px;
+}
 
 
 }
