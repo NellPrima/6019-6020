@@ -574,7 +574,7 @@ span {
         font-size: 35px;
         color: #f4f0ec;
         text-align: center;
-        border: 3px solid green;
+       
     }
 
     
@@ -700,21 +700,219 @@ span {
     font-size: 20px;
 }
 
+/* Animal pages start */
+.centered-layout {
+    width: 90%;
+}
+
+.image {
+    width: 350px;
+}
+
+
+.bio {
+  line-height: 30px;
+  font-size: 22px;
+}
+
+
+
+
+/* Nina page end */
+
+/* Nnedi page start */
+  #mermaid-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+   
+} 
+
+/* Nnedi page end */
+
+/* Binya page start */
+
+
+#frog-img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0%; 
+} 
+
+/*Binya page end*/
+
+/* volunteer code start */
+
+#single-three {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+#howto {
+    font-size: 50px; 
+}
+
+.one {
+    text-align: center;
+    line-height: 40px;
+}
+.paragraph1 {
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Volunteer code end */
+
+
+/* Donate code start */
+
+
+.single-column-layout {
+    width: 80%;
+    border-radius: 5px; 
+}
+
+#newbg img {
+    width: 340px;  
+}
+
+#newbg h2 {
+    text-shadow: 1px 2px #2d2b29;
+}
+
+.flexmoney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+
+
+.form {
+   width: 350px;
+   height: 700px;
+   margin-bottom: 50px;
+   border-radius: 2%;
+   border: 4px solid #e1d6ce;
+   
+}
+
+.money-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 25px;
+    font-family: Ubuntu;
+    line-height: 30px;
+    color: #e07431;
+    text-shadow: 1px 1px #ede5e1;
+    padding-bottom: 20px;
+}
+
+/* Donation forum start  */
+
+.donation-header {
+    text-align: center;
+    color: #e07431;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#money-donate {
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+
+.name-name {
+    font-family: Ubuntu;
+}
+
+.first-name {
+    padding-bottom: 20px;
+}
+
+.last-name {
+    padding-bottom: 20px;
+}
+
+.email {
+    padding-bottom: 20px;
+}
+
+.fa-credit-card {
+    color: #e07431;
+    font-size: 25px;
+    
+}
+
+#cash {
+    margin-top: 20px;
+}
+
+#monies {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#month-cvc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    width: 80px;
+}
+
+
+
+
+
+
+#submit {
+    color: white;
+    background-color: #e07431;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.division {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#what-div {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/* Donation forum end */
+
+/* Donate page end */
+
 
 }
 
 
 @media screen and (min-width: 1001px)  {
 
-    #navbar #logo {
-       
-        border: 3px solid rgb(49, 0, 128);
-    }
-
-    body {
-        background-color: red;
-    }
-
+  
     .hero-content {
         gap: 10px;
         position: relative;
@@ -730,6 +928,48 @@ span {
         width: 900px;
         
     }
+
+    
+/* Animal pages start */
+.centered-layout {
+    width: 800px;
+}
+
+
+.image {
+    width: 400px;
+}
+
+
+.bio {
+    line-height: 33px;
+}
+
+
+
+/* Nina page end */
+
+/* Nnedi page start */
+  #mermaid-img {
+    width: 600px;
+} 
+
+/* Nnedi page end */
+
+/* Binya page start */
+
+
+#frog-img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0%;    
+} 
+
+/*Binya page end*/
+
+
 
  
 
