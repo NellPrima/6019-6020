@@ -5,391 +5,119 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: 
-        linear-gradient(#d9ec9fbd, #aae9af3d),
-        url(../images/background1.jpg);     
-}
-
-
-/*top*/
-#navbar {
-    background-color: #c4d18b ;
-    font-size: 20px;
-}
-
-#navbar .centered-column {
-    display: flex;
-    align-items: center;
-}
-    
-#navbar a {
-    display: inline-block;
-    text-decoration: none;
-    color: green;
-    padding: 24px;
-    justify-content: space-between;
-    font-weight: bold;
-}
-    
-#navbar a:hover {
-    background: linear-gradient(to right,
-        rgb(121, 184, 121),
-        white,
-        rgb(252, 105, 105)
-    );
-    color: black;
-    border-radius: 5px;
-}
-
-#navbar img {
-    width: 200px;
-    margin-right: auto;  
-}
-
-#navbar #flag {
-    width: 50px;
-    padding-left: 10px;
-}
-    
-.dropdown-container {
-    position: relative;
-}
-
-.dropdown-menu {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.dropdown-container:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-}
-
-.dropdown-menu a {
-    background-color: #c4d18b;
-    color: #69af6e;
-    width: 100%;
-    min-width: 200px;
-}
-
-#navbar .dropdown-menu a:hover {
-    background: linear-gradient(to right,
-    rgb(121, 184, 121),
-    white,
-    rgb(252, 105, 105)
-);
-color: black;
-}
-
-#navbar-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
-    font-size: 20px;
-}
-
-#navbar-info {
-    padding: 10px;
-    border-radius: 10px;
-    
-}
-
-#navbar-info a {
-    text-decoration: none;
-    color: green;
-}
-
-/*hero*/
-#hero {
-    background-image: url("../images/hero-final.jpg");
-    flex-direction: column;
-    min-height: 40vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-    
-#hero h2 {
-    font-size: 3vw;
-    margin-left: 20px;
-    font-style: italic;
-    color: green;
-    padding: 30px;
-}
-    
-#hero h4 {
-    font-size: 3vw;
-    margin-left: 20px;
-    font-style: italic;
-    color: green;
-    padding: 30px;
+    background-color: rgb(190, 212, 176);
 }
 
 .centered-column {
-    width: 90vw;
-    max-width: 1000px;
-    margin: 40px auto;
-}
-
-#hero a {
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    background-color: rgb(247, 102, 102);
-    padding: 20px;
-    border-radius: 5px;
-    margin: 50px;
-}
-
-#hero a:hover {
-    background: linear-gradient(to right,
-        rgb(121, 184, 121),
-        white,
-        rgb(252, 105, 105)
-        );
-    color: black;
-}
-
-/*cards*/
-.cards-container {
-    justify-content: center;
-    gap: 36px;
-    display: flex;
-}
-
-.cards {
-    text-align: center;
-    flex: 1;
-}
-      
-.cards img {
-    width: 100%;
-    height: 300px;
-    border: 5px solid green;
-    object-fit: cover;
-}
-    
-.cards h2 {
-    font-size: 36px;
-    margin-top: 12px;
-    color: green;
-    text-align: center;
-}
-    
-.cards p {
-    font-size: 18px;
-    text-align: center;
-    flex: 1;
-}
-
-.cards a {
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    background-color: rgb(247, 102, 102);
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px;
-    display: inline-block;
-}
-
-.cards a:hover {
-    background: linear-gradient(to right,
-        rgb(121, 184, 121),
-        white,
-        rgb(252, 105, 105)
-    );
-    color: black;
-}
-
-
-/*footer*/
-#footer {
-    background: linear-gradient(to right,
-        rgb(121, 184, 121),
-        white,
-        rgb(252, 105, 105)
-        );
-}
-
-
-#footer-navbar {
-    width: 100%;
+    width: 100%;  
     margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-#footer a {
-    text-decoration: none;
-    color: black;
-}
-
-#footer a:hover {
-    background-color: rgb(247, 102, 102);
-    padding: 3px;
-    border-radius: 5px;
-    color: white;
-}
-
-/*gallery*/
-#header {
     text-align: center;
-    font-style: italic;
-    font-size: 3vh;
+    padding-top: 50px;
 }
 
-
-.gallery {
-    columns: 2 auto;
-    column-gap: 20px;
-    row-gap: 20px;
+#img1,
+#img2 {
+    width: 400px;
+    padding: 20px auto;
+    background-color: rgb(165, 165, 158);
+    border: 2px solid black;
+    border-radius: 20%;
 }
 
-.gallery img {
-    width: 100%;
-    margin-right: auto;
-    padding: 20px;
+p {
+    width: 100%;  
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
-
-/*menu*/
-
-.side-by-side {
-    align-items: center;
-    margin: 48px 0px;
-    justify-content: center;
-}
-    
-    
-.side-by-side .image-container {
-    flex: 1;
-    margin-left: 50px;
-}
-    
-.side-by-side .text-container {
-    flex: 1;
-    padding: 20px
-    
-}
-   
-.side-by-side .image-container img {
-    width: 100%;
-}
-    
-.side-by-side .text-container h3 {
-    font-size: 48px;
-}
-
-.side-by-side .text-container a {
-    font-size: 28px;
+h2 {
     font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    background-color: rgb(247, 102, 102);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
 }
 
-.side-by-side .text-container a:hover {
-    background: linear-gradient(to right,
-    rgb(121, 184, 121),
-    white,
-    rgb(252, 105, 105)
-);
-color: black;
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    color: white;
+}
+
+
+.side-by-side img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .image-container {
-    width: 100%;
-    margin: 10px;
-    padding: 20px;
-    border: 3px solid black;   
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin: 40px 40px 40px 40px;
+
 }
 
-#centered-column1 .card {
-    text-align: center;
-    background-color: #69af6e;
-    margin: 50px;
+.button1 {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: grey;
     padding: 10px;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+   
+
+.button2 {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
-#centered-column1 h2 {
-    text-align: center;
-    font-size: 30px;
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10%;
 }
 
-/*about*/
-
-#nonna {
-    width: 100%;
-    margin: 10px;
-    padding: 20px;
-    border: 3px solid black;
+.button1:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
 }
 
-#header {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+.button2:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
 }
 
-#body {
-    text-align: center;
-    background-color: #c4d18b;
-    margin-bottom: 60px;
-    padding: 20px;
-    border: 3px solid black;
-    font-size: 25px;
-    font-style: italic;
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-
-@media screen and (max-width: 680px) and (min-width:480px) {
-    #footer-navbar {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
+@media screen and (max-width:1000px) and (min-width:905) {
     .centered-column {
         flex-direction: column;
     }
-
-    .cards {
-        flex-direction: column;
-    }
-
-    #navbar-info {
-        flex-direction: column;
-    }
-
-    #hero {
-        flex-direction: column;
-    }
-
-    #navbar #flag {
-        flex-direction: column;
-        margin-right: 0px; 
-    }
-    .side-by-side .image-container {
-        flex-direction: column;
-    }
-
-    .side-by-side .text-container {
-        flex-direction: column;
-    }
-     
-    .side-by-side {
-        flex-direction: column;
-    }
-    }
- 
+    
+}
